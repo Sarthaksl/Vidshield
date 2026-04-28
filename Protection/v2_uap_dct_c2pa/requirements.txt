@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+adversarial-robustness-toolbox
+opencv-python
+matplotlib
+pillow
+transformers
+deepface
+git+https://github.com/openai/CLIP.git 

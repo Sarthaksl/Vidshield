@@ -1,0 +1,12 @@
+body {
+    background: #f4f4fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 30px;
+}
+h2 {
+    color: #309ada;
+}
+video {
+    border: 2px solid #ccc;
+    margin: 16px 0;
+}
