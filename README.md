@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="docs/figures/system_architecture.svg" alt="VidShield Architecture" width="720"/>
-
 # VidShield
 
 ### A Joint Framework for Video Deepfake Detection and Frame-Level Provenance Protection
@@ -35,7 +33,7 @@ VidShield was designed around this gap. It is a dual-component framework that ap
 | **Detection** | Normalized Robustness Score (8 corruptions) | **0.9185** |
 | **Protection — Layer 1 (UAP)** | Average CLIP Similarity Post-Perturbation | **0.5853** |
 | **Protection — Layer 2 (DCT)** | Average Fingerprint Recovery Accuracy | **0.9572** |
-| **Protection — Layer 3 (C2PA)** | Tamper Detection | **100% in simulated tests** |
+| **Protection — Layer 3 (C2PA)** | Tamper Detection | **Protected results in simulated tests** |
 
 ---
 
@@ -361,11 +359,11 @@ Fernet is a symmetric encryption scheme — robust and cryptographically sound w
 If you find this work useful for your research, please cite:
 
 ```bibtex
-@article{vidshield2025,
-  title     = {VidShield: A Joint Framework for Video Deepfake Detection and Frame-Level Provenance Protection},
-  author    = {Raj, Aditya and Harade, Sarthak and Karkera, Jayan and Ailani, Mohit and Sabnis, Manoj},
+@article{vidshield2026,
+  title     = {A Joint Framework for Video Deepfake Detection and Frame-Level Provenance Protection},
+  author    = {Aditya Raj, Sarthak Harade, Jayan Karkera,Dr. Manoj Sabnis, Mohit Ailani},
   journal   = {IEEE},
-  year      = {2025},
+  year      = {2026},
   note      = {Department of Information Technology, Vivekanand Education Society's Institute of Technology, Mumbai}
 }
 ```
@@ -374,17 +372,12 @@ If you find this work useful for your research, please cite:
 
 ## Acknowledgements
 
-This project was developed under the guidance of **Dr. Manoj Sabnis**, Department of Information Technology, VESIT Mumbai, whose feedback and support across every iteration of this work — from the ConvNeXt baseline through the final VidShield architecture — was invaluable.
+This project was developed under the guidance of **Dr. Manoj Sabnis**, Department of Information Technology, VESIT Mumbai, whose feedback and support across every iteration of this work from the ConvNeXt baseline through the final VidShield architecture was invaluable.
 
 The following open-source datasets were used in this work: DFDC (Meta AI), DeeperForensics-1.0, CelebA (MMLAB), and Celeb-DF-v2. We thank their creators for making these resources publicly available.
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
 
 <div align="center">
 <sub>Built at VESIT Mumbai · Department of Information Technology · 2024–2025</sub>
