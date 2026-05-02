@@ -164,12 +164,12 @@ The following datasets were used across detection training, protection layer dev
 
 | Dataset | Source | Role in This Project | Access |
 |---|---|---|---|
-| **DFDC** (Deepfake Detection Challenge) | Meta AI | Detection training — in-the-wild deepfakes covering diverse forgery methods, demographics, and compression levels | [Kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data) |
-| **DeeperForensics-1.0** | EndlessSora et al. | Detection training — high-fidelity face-swap forgeries with controlled perturbations; forms the second half of the joint training corpus | [GitHub](https://github.com/EndlessSora/DeeperForensics-1.0) |
+| **DFDC** (Deepfake Detection Challenge) | Meta AI | Detection training - in-the-wild deepfakes covering diverse forgery methods, demographics, and compression levels | [Kaggle](https://www.kaggle.com/c/deepfake-detection-challenge/data) |
+| **DeeperForensics-1.0** | EndlessSora et al. | Detection training - high-fidelity face-swap forgeries with controlled perturbations; forms the second half of the joint training corpus | [GitHub](https://github.com/EndlessSora/DeeperForensics-1.0) |
 | **CelebA** (Large-scale CelebFaces Attributes) | MMLAB, CUHK | UAP training (2,000 images used to optimize the universal perturbation via CLIP loss) and protection evaluation baseline | [MMLAB](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) |
-| **Celeb-DF-v2** | Yuezun Li et al. | Cross-dataset generalization evaluation only — never seen during training; used to measure zero-shot transfer to higher-fidelity synthesis pipelines | [GitHub](https://github.com/yuezunli/celeb-deepfakeforensics) |
+| **Celeb-DF-v2** | Yuezun Li et al. | Cross-dataset generalization evaluation only, never seen during training and was used to measure zero-shot transfer to higher-fidelity synthesis pipelines | [GitHub](https://github.com/yuezunli/celeb-deepfakeforensics) |
 
-The datasets listed above are the intellectual property of their respective creators and institutions. **The authors of VidShield do not claim any ownership over, nor have any affiliation with, any of the datasets used in this project.**
+The datasets listed above are the intellectual property of their respective creators and institutions. **The authors of VidShield do not claim any ownership over, nor have any affiliation with, any of the datasets used in this project.** Researchers intending to use this codebase are responsible for independently reviewing and complying with the licensing terms of each dataset before use.
 
 
 After downloading, set the dataset root paths in the first cell of the relevant training notebook before running.
@@ -382,8 +382,6 @@ The following open-source datasets were used in this work: DFDC (Meta AI), Deepe
 All datasets were obtained through their official, publicly available distribution channels and are used strictly for non-commercial academic research purposes, in accordance with the terms and conditions set forth by each dataset's respective license and usage agreement. No dataset or portion thereof has been redistributed, modified for redistribution, or used in any manner beyond the scope of the research described in this repository.
 
 We express our sincere gratitude to the creators and maintainers of DFDC (Meta AI), DeeperForensics-1.0, CelebA (MMLAB, The Chinese University of Hong Kong), and Celeb-DF-v2 for making these resources openly available to the research community. This work would not have been possible without their contributions.
-
-Researchers intending to use this codebase are responsible for independently reviewing and complying with the licensing terms of each dataset before use.
 
 ---
 
