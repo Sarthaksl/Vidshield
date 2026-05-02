@@ -179,8 +179,8 @@ Training from scratch requires significant GPU resources and time. To make the w
 
 | Model | Phase | Val AUC | Size | Download |
 |---|---|---|---|---|
-| ConvNeXt-tiny (spatial baseline) | Phase 1 | — | ~110 MB | [Google Drive](https://drive.google.com/) |
-| Video Swin Transformer Small + GRL | Phase 2 | 0.9982 | ~210 MB | [Google Drive](https://drive.google.com/) |
+| ConvNeXt-tiny (spatial baseline) | Phase 1 | — | ~110 MB | [Google Drive](https://drive.google.com/drive/folders/1RzefPj7VP_SmDB7o1gRK4urGx83PYH8v?usp=drive_link) |
+| Video Swin Transformer Small + GRL | Phase 2 | 0.9982 | ~210 MB | [Google Drive](https://drive.google.com/drive/folders/1o0o6pCLrRLUD7Is9Kr7iUfmYeCzqP-hs?usp=sharing) |
 
 
 ### Using a pre-trained checkpoint
