@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deepfake Prevention Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Deepfake Prevention System</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="uploader">Your Name:</label>
+        <input type="text" name="uploader" required><br>
+        <label for="video">Upload Video (.mp4):</label>
+        <input type="file" name="video" accept="video/mp4" required><br>
+        <button type="submit">Upload & Analyze</button>
+    </form>
+</body>
+</html>

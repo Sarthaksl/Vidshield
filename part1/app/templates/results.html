@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison Results - Deepfake Prevention</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Analysis Results</h2>
+    <h3>Original Video</h3>
+    <video width="400" controls src="{{ url_for('static', filename='uploads/' + original_filename) }}"></video>
+    <h3>Tampered Video</h3>
+    <video width="400" controls src="{{ url_for('static', filename='processed/' + tampered_filename) }}"></video>
+    <h3>Heatmap Visualization</h3>
+    <video width="400" controls src="{{ url_for('static', filename='processed/' + heatmap_filename) }}"></video>
+    <h3>Status: {{ status }}</h3>
+    <a href="/">Try Another Video</a>
+</body>
+</html>
